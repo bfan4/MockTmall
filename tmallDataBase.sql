@@ -27,7 +27,7 @@ CREATE TABLE product (
   id int(11) NOT NULL AUTO_INCREMENT,
   name varchar(255) DEFAULT NULL,
   subTitle varchar(255) DEFAULT NULL,
-  orignalPrice float DEFAULT NULL,
+  originalPrice float DEFAULT NULL,
   promotePrice float DEFAULT NULL,
   stock int(11) DEFAULT NULL,
   cid int(11) DEFAULT NULL,
