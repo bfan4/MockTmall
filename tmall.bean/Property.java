@@ -1,0 +1,41 @@
+/* @ By: Bo Fan  
+ * Date: 04/25/2019
+ * MockTmall Project
+ * Property Class
+ * */
+
+package tmall.bean;
+
+public class Property {
+	
+	private String name;
+	private Category category;
+	private int id;
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public Category getCategory() {
+		return category;
+	}
+	
+	public void setCategory(Category category) {
+		this.category = category;
+	}
+	
+	public int getId() {
+		return id;
+	}
+	
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+	
+
+}
